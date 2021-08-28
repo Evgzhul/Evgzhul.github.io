@@ -2,11 +2,12 @@
 .post-preview {
     >a {
         color: $gray-900;
-
+        transition: 0.2s;
         &:focus,
         &:hover {
             text-decoration: none;
             color: $primary;
+            transition: 0.2s;
         }
 
         >.post-title {
@@ -30,11 +31,10 @@
         >a {
             text-decoration: none;
             color: $gray-900;
-
             &:focus,
             &:hover {
                 text-decoration: underline;
-                color: $primary;
+                color: darken($primary,7.5);
             }
         }
     }
@@ -46,4 +46,7 @@
             }
         }
     }
+}
+.post-heading{
+    text-align: center;
 }
