@@ -1,13 +1,13 @@
-title:              Evgzhul Blog
+title:              evgzhul's blog
 email:              
 description:        Personal website with some interesting posts
-author:             Evgzhul
+author:             evgzhul
 baseurl:            ""
 url:                "https://evgzhul.github.io"
 
 # Social Profiles
 twitter_username:   
-github_username:    
+github_username:    evgzhul
 facebook_username:  
 instagram_username:  
 linkedin_username:
